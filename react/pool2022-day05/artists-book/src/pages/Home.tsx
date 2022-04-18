@@ -1,10 +1,11 @@
-import { Center, Heading } from '@chakra-ui/react';
+import { Center, Heading, Text } from '@chakra-ui/react';
 
 function Home(): JSX.Element {
 	return (
-		<Center>
+		<>
 			<Heading color="tomato">Artists Book</Heading>
-		</Center>
+            <Text color='darkred'>Manage your favorite artists</Text>
+		</>
 	);
 }
 
