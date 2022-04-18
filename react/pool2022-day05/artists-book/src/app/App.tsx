@@ -1,8 +1,9 @@
 import Home from 'pages/Home';
+import Routes from 'app/Routes';
 
 const App = (): JSX.Element => (
 	<>
-		<Home />
+		<Routes />
 	</>
 );
 
