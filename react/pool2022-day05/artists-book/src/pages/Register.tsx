@@ -14,14 +14,14 @@ function Register(): JSX.Element {
 			<Input placeholder="Email" onChange={(evt) => setEmail(evt.target.value)} />
 			<PasswordInput onChange={(evt) => setPassword(evt.target.value)} />
 			<PasswordInput onChange={(evt) => setPasswordConfirmation(evt.target.value)} />
-			<Button
+			<Button id="register"
 				onClick={() =>
 					console.log(`email: ${email}, password: ${password}, passwordConfimation: ${passwordConfirmation}`)
 				}
 			>
 				Submit
 			</Button>
-			<Link as={RouteLink} to="/login">
+			<Link as={RouteLink} to="/login" id="login">
 				Login
 			</Link>
 		</>
