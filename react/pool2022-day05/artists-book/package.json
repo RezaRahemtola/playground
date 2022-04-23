@@ -14,6 +14,7 @@
     "@types/node": "^16.11.27",
     "@types/react": "^18.0.5",
     "@types/react-dom": "^18.0.1",
+    "cypress": "^9.5.4",
     "framer-motion": "^5.6.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
