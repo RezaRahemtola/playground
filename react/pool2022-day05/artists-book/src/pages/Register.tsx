@@ -14,7 +14,8 @@ function Register(): JSX.Element {
 			<Input placeholder="Email" onChange={(evt) => setEmail(evt.target.value)} />
 			<PasswordInput onChange={(evt) => setPassword(evt.target.value)} />
 			<PasswordInput onChange={(evt) => setPasswordConfirmation(evt.target.value)} />
-			<Button id="register"
+			<Button
+				id="register"
 				onClick={() =>
 					console.log(`email: ${email}, password: ${password}, passwordConfimation: ${passwordConfirmation}`)
 				}
