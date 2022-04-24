@@ -12,7 +12,9 @@ function Login(): JSX.Element {
 			<Input placeholder="Email" onChange={(evt) => setEmail(evt.target.value)} />
 			<PasswordInput onChange={(evt) => setPassword(evt.target.value)} />
 			<Button onClick={() => console.log(`email: ${email}, password: ${password}`)} id="login">
-				Submit
+				<Link as={RouteLink} to="/dashboard">
+					Submit
+				</Link>
 			</Button>
 			<Link as={RouteLink} to="/register" id="register">
 				Register
