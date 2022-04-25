@@ -1,6 +1,8 @@
-import { Box, Flex, Link, Button, useColorModeValue } from '@chakra-ui/react';
+import { Box, Flex, Link, useColorModeValue } from '@chakra-ui/react';
 
 import { Link as RouteLink } from 'react-router-dom';
+
+import AddArtistButton from 'components/Button/AddArtistButton';
 
 function TopBar() {
 	return (
@@ -10,7 +12,7 @@ function TopBar() {
 					<Link as={RouteLink} to="/dashboard" id="dashboard">
 						Dashboard
 					</Link>
-					<Button colorScheme="orange">Add an artist</Button>
+					<AddArtistButton />
 				</Flex>
 			</Box>
 		</>

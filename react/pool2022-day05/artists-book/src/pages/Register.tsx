@@ -20,7 +20,9 @@ function Register(): JSX.Element {
 					console.log(`email: ${email}, password: ${password}, passwordConfimation: ${passwordConfirmation}`)
 				}
 			>
-				Submit
+				<Link as={RouteLink} to="/dashboard" id="dashboard">
+					Submit
+				</Link>
 			</Button>
 			<Link as={RouteLink} to="/login" id="login">
 				Login
