@@ -1,5 +1,7 @@
 import prompts from 'prompts';
 
+import displayAll from './controllers/artists/display';
+
 async function getInput(): Promise<number> {
   const response = await prompts({
     type: 'number',
@@ -21,6 +23,9 @@ async function router() {
   while (answer !== 2) {
     displayOptions();
     answer = await getInput();
+    if (answer === 1) {
+      displayAll();
+    }
   }
   console.log('See you !');
 }
