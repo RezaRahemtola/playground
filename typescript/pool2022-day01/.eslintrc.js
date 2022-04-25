@@ -19,6 +19,7 @@ module.exports = {
   },
   rules: {
     'no-console': 'off',
+    'no-unused-vars': 'off',
     'no-await-in-loop': 'off',
     'import/extensions': [
       'error',
@@ -27,5 +28,8 @@ module.exports = {
         ts: 'never',
       },
     ],
+  },
+  globals: {
+    NodeJS: true,
   },
 };
