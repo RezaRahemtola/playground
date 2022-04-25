@@ -20,6 +20,8 @@ module.exports = {
   rules: {
     'no-console': 'off',
     'no-unused-vars': 'off',
+    'max-len': 'off',
+    'no-param-reassign': 'off',
     'no-await-in-loop': 'off',
     'import/extensions': [
       'error',
