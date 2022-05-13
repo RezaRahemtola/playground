@@ -6,9 +6,12 @@ import {ItemType} from "aleph-sdk-ts/messages/message";
 export const uploadFile = async (file: File) => {
   const {account} = ethereum.NewAccount();
 
-  console.log(account.address);
-  console.log(file.name);
+  console.log(`Account ${account.address} wants to upload file "${file.name}"`);
 
+  if (file.name === "") {
+    console.log("File name is empty, aborting");
+    return;
+  }
   const confirmation = await store.Publish({
     channel: "TEST",
     account: account,
@@ -17,5 +20,5 @@ export const uploadFile = async (file: File) => {
     APIServer: DEFAULT_API_V2,
   });
 
-  console.log(confirmation)
+  console.log(`Confirmation:`, confirmation);
 }
