@@ -9,6 +9,9 @@ function App(): JSX.Element {
       <>
         <Input
           type="file"
+					h="100%"
+					w="100%"
+					p="10px"
           onChange={(evt) => {
             if (evt.target.files !== null)
               setFile(evt.target.files[0])
