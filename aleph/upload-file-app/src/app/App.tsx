@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { uploadFile } from '../utils/uploadFile';
-import { Input, Button, Center, Text, Link, useToast, VStack } from '@chakra-ui/react'
+import { Input, Button, Center, Text, Link, VStack, useToast } from '@chakra-ui/react'
 import { getExplorerLink } from '../utils/getExplorerLink';
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 
