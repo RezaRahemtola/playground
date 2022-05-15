@@ -9,8 +9,7 @@ export const uploadFile = async (file: File) => {
   console.log(`Account ${account.address} wants to upload file "${file.name}"`);
 
   if (file.name === "") {
-    console.log("File name is empty, aborting");
-    return;
+    throw new Error("Please select a file to upload.");
   }
   const confirmation = await store.Publish({
     channel: "TEST",
