@@ -7,10 +7,9 @@ export const uploadFile = async (file: File) => {
   const {account} = ethereum.NewAccount();
 
   console.log(`Account ${account.address} wants to upload file "${file.name}"`);
-
-  if (file.name === "") {
+  if (file.name === "")
     throw new Error("Please select a file to upload.");
-  }
+
   const confirmation = await store.Publish({
     channel: "TEST",
     account: account,
