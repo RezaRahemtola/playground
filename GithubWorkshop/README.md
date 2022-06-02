@@ -10,6 +10,9 @@ Go to your repository settings, and in the `Collaborators` add your teammate !
 
 > Don't forget to use branches ! This time, try to create it directly in GitHub :rocket:
 
+> This workshop is based on [PoC Innovation's Open-Source project template](https://github.com/PoCInnovation/open-source-project-template).  
+Several links to specific parts of the [getting started guide](https://github.com/PoCInnovation/open-source-project-template/blob/main/.github/getting-started.md) will be given to you, but don't spend too much time on it, we have a lot to cover ! You can read it entirely later.
+
 ## Step 1 - Issues
 There's a bug in the project (tests failing): create 2 issues (one to fix the bug, one to add a given feature, on two different branches)  
 Method: result screen to reproduce or fully autonomous with correction after
@@ -35,7 +38,6 @@ linked to a sprint for example ? Milestones are exactly what you need !
 You can find them in the `Issues` tab.
 
 ## Step 5 - Actions
-
 <u>Pro tips:</u>
 > If you want to learn more about GitHub Actions, you can check [our dedicated workshop](https://github.com/PoCInnovation/Workshops/tree/24.Git_Github/software/05.Actions) !
 
