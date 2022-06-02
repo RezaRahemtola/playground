@@ -23,7 +23,7 @@ When it's done, add your teammate as reviewer and play with the review tool in t
 
 <i>Pro tip:</i>
 
-> The first method is pretty obvious, but the second one is implicit, don't hesitate to ask for a hint :bulb:
+> Take a look at [Closing keywords](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests) 😉
 
 ## Step 3 - Projects
 You can now manage features and tasks with issues, group commits and do code reviews with PRs, but how do you actually organize
@@ -37,6 +37,6 @@ You can find them in the `Issues` tab.
 ## Step 5 - Actions
 
 <u>Pro tips:</u>
-> If you want to learn more about GitHub Actions, you can check our dedicated workshop [link] !
+> If you want to learn more about GitHub Actions, you can check [our dedicated workshop](https://github.com/PoCInnovation/Workshops/tree/24.Git_Github/software/05.Actions) !
 
 ## Step 6 - Branches protection settings (optional)
