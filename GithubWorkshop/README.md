@@ -46,4 +46,10 @@ You can find them in the `Issues` tab.
 <u>Pro tips:</u>
 > If you want to learn more about GitHub Actions, you can check [our dedicated workshop](https://github.com/PoCInnovation/Workshops/tree/24.Git_Github/software/05.Actions) !
 
-## Step 6 - Branches protection settings (optional)
+## Step 6 - [Branches protection settings](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches) (optional)
+Branch protection rules are a great way to enforce good practices.  
+For example, your production branch (usually `main`) should be as clean and bug-free as possible, so you don't want to push directly on it and if you have CI tests with GitHub Actions it's a good practice to ensure they all passed when merging on `main`.  
+Even if your collaborators and yourself know this, a mistake or a malicious act may occur and enforcing these practices isn't a bad idea.
+
+Go to `Settings` -> `Code and automation` -> `Branches` and add rules to protect your `main` and `dev` branches.
+> Take a look at the [protection settings we recommend for `main`](https://github.com/PoCInnovation/open-source-project-template/blob/main/.github/getting-started.md#branches) and don't hesitate to ask if you have any question about it 😉
