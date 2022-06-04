@@ -14,10 +14,15 @@ Go to your repository settings, and in the `Collaborators` add your teammate !
 Several links to specific parts of the [getting started guide](https://github.com/PoCInnovation/open-source-project-template/blob/main/.github/getting-started.md) will be given to you, but don't spend too much time on it, we have a lot to cover ! You can read it entirely later.
 
 ## Step 1 - [Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)
-There's a bug in the project (tests failing): create 2 issues (one to fix the bug, one to add a given feature, on two different branches)  
+On a project, you'll need a tool to track and organize your work: with GitHub Issues, you can track feature requests, user feedbacks and bug reports.  
+If you played a bit with the calculator you may notice the given result isn't correct.  
+You have to create 3 issues:
+- One to describe the problem, with expected behaviour and what you are experiencing.
+- Another to suggest a feature (add all the arguments instead of just the first 2)
+- A last one to take a single string as parameter and support operators in it (this one will not be implemented)
+
 Method: result screen to reproduce or fully autonomous with correction after
 
-<i>Pro tips:</i>
 > Take a look at [labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels) and [assignees](https://docs.github.com/en/issues/tracking-your-work-with-issues/assigning-issues-and-pull-requests-to-other-github-users)
 
 ## Step 2 - [Pull Requests (PRs)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
