@@ -58,3 +58,10 @@ Even if your collaborators and yourself know this, a mistake or a malicious act 
 
 Go to `Settings` -> `Code and automation` -> `Branches` and add rules to protect your `main` and `dev` branches.
 > Take a look at the [protection settings we recommend for `main`](https://github.com/PoCInnovation/open-source-project-template/blob/main/.github/getting-started.md#branches) and don't hesitate to ask if you have any question about it 😉
+
+## To go further
+You've learned how to use a lot of tools provided by GitHub, but there's a lot more to discover !
+
+- The [GitHub Learning Lab](https://lab.github.com/) provides some great hands-on courses to grow your skills !  
+- [Making open-source contributions](https://docs.github.com/en/get-started/exploring-projects-on-github/finding-ways-to-contribute-to-open-source-on-github) is a great way to apply what you've learned in a real project.  
+  Pay attention to `good first issue` labels directly on GitHub or on [dedicated sites](https://goodfirstissue.dev/).
