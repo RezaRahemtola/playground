@@ -35,7 +35,7 @@ But don't close them yet, you will now learn to use Pull Requests and use the op
 Create 2 Pull Requests, and use 2 different methods to link the related issues.
 When it's done, add your teammate as reviewer and play with the review tool in the `Files Changed` tab !
 
-<i>Pro tip:</i>
+<i>Pro tips:</i>
 
 > Take a look at [Closing keywords](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests) 😉
 
@@ -56,7 +56,7 @@ You can find them in the `Issues` tab.
 > You won't find a lot of documentation about it, but it's also possible to create [milestone templates](https://github.com/PoCInnovation/open-source-project-template/blob/main/.github/milestone_template.md) 🚀
 
 ## Step 5 - [Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
-<u>Pro tips:</u>
+<i>Pro tips:</i>
 > If you want to learn more about GitHub Actions, you can check [our dedicated workshop](https://github.com/PoCInnovation/Workshops/tree/24.Git_Github/software/05.Actions) !
 
 ## Step 6 - [Branches protection settings](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches) (optional)
