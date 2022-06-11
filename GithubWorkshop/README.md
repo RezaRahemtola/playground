@@ -27,6 +27,14 @@ Try to make it as complete as possible, then take a look at the expected results
   <summary>Problem issue</summary>
   <img src="./assets/issue_bug.png"/>
 </details>
+<details>
+  <summary>Feature issue</summary>
+  <img src="./assets/issue_feature.png"/>
+</details>
+<details>
+  <summary>Not implemented issue</summary>
+  <img src="./assets/issue_feature_wontfix.png"/>
+</details>
 
 <i>Pro tips:</i>
 > Take a look at [labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels) and [assignees](https://docs.github.com/en/issues/tracking-your-work-with-issues/assigning-issues-and-pull-requests-to-other-github-users)
