@@ -56,6 +56,11 @@ You can find them in the `Issues` tab.
 > You won't find a lot of documentation about it, but it's also possible to create [milestone templates](https://github.com/PoCInnovation/open-source-project-template/blob/main/.github/milestone_template.md) 🚀
 
 ## Step 5 - [Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
+Keeping your code clean and making sure it still works as intended when you develop new features is very important, and GitHub provides you a useful tool for this: Actions !  
+Whether you want to build, test or deploy your code, you can create custom workflows triggered by any GitHub event (push, pull_request, new issue...)
+
+Follow [this quickstart](https://docs.github.com/en/actions/quickstart) to create your first action !
+
 <i>Pro tips:</i>
 > If you want to learn more about GitHub Actions, you can check [our dedicated workshop](https://github.com/PoCInnovation/Workshops/tree/24.Git_Github/software/05.Actions) !
 
