@@ -15,13 +15,18 @@ Several links to specific parts of the [getting started guide](https://github.co
 
 ## Step 1 - [Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)
 On a project, you'll need a tool to track and organize your work: with GitHub Issues, you can track feature requests, user feedbacks and bug reports.  
-If you played a bit with the calculator you may notice the given result isn't correct.  
+If you played a bit with the calculator you may notice the given result isn't correct.
+
 You have to create 3 issues:
 - One to describe the problem, with expected behaviour and what you are experiencing.
 - Another to suggest a feature (add all the arguments instead of just the first 2)
 - A last one to take a single string as parameter and support operators in it (this one will not be implemented)
 
-Method: result screen to reproduce or fully autonomous with correction after
+Try to make it as complete as possible, then take a look at the expected results:
+<details>
+  <summary>Problem issue</summary>
+  <img src="./assets/issue_bug.png"/>
+</details>
 
 <i>Pro tips:</i>
 > Take a look at [labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels) and [assignees](https://docs.github.com/en/issues/tracking-your-work-with-issues/assigning-issues-and-pull-requests-to-other-github-users)
