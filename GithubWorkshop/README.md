@@ -63,6 +63,10 @@ Try to make it as complete as possible, then take a look at the expected results
   <summary>Feature PR</summary>
   <img src="./assets/pr_feature.png"/>
 </details>
+<details>
+  <summary>Review example</summary>
+  <img src="./assets/pr_review.png"/>
+</details>
 
 ## Step 2 - [Projects](https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards) & [Milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones)
 You can manage features and tasks with issues, group commits and do code reviews with PRs, but how do you actually organize
