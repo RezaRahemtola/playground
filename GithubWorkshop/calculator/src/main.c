@@ -14,7 +14,7 @@ int main(int argc, char *const argv[])
 
     if (argc != 3)
         return 84;
-    result = atoi(argv[0]) + atoi(argv[1]);
+    result = atoi(argv[1]) + atoi(argv[2]);
     printf("Result is %d\n", result);
     return 0;
 }
