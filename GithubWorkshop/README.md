@@ -22,6 +22,11 @@ You have to create 3 issues:
 - Another to suggest a feature (add all the arguments instead of just the first 2)
 - A last one to take a single string as parameter and support operators in it (this one will not be implemented)
 
+<i>Pro tips:</i>
+> Take a look at [labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels) and [assignees](https://docs.github.com/en/issues/tracking-your-work-with-issues/assigning-issues-and-pull-requests-to-other-github-users)
+
+> Instead of filling an Issue manually, you can use [templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository). It's really useful to let contributors know what information maintainers need and keep a common structure between issues. You can find some great examples in [our Open-Source project template](https://github.com/PoCInnovation/open-source-project-template/tree/main/.github/ISSUE_TEMPLATE).
+
 Try to make it as complete as possible, then take a look at the expected results:
 <details>
   <summary>Problem issue</summary>
@@ -36,22 +41,28 @@ Try to make it as complete as possible, then take a look at the expected results
   <img src="./assets/issue_feature_wontfix.png"/>
 </details>
 
-<i>Pro tips:</i>
-> Take a look at [labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels) and [assignees](https://docs.github.com/en/issues/tracking-your-work-with-issues/assigning-issues-and-pull-requests-to-other-github-users)
-
-> Instead of filling an Issue manually, you can use [templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository). It's really useful to let contributors know what information maintainers need and keep a common structure between issues. You can find some great examples in [our Open-Source project template](https://github.com/PoCInnovation/open-source-project-template/tree/main/.github/ISSUE_TEMPLATE).
+Now you can create two branches (`fix/wrong-result` and `feat/multi-arguments`) and solve the related issues on it. 
 
 Congratulations, you solved these issues !  
 But don't close them yet, you will now learn to use Pull Requests and use the option to close issues automatically :sparkles:
 
-Create 2 Pull Requests, and use 2 different methods to link the related issues.
+Create a Pull Request for each branch and use 2 different methods to link the related issues.
 When it's done, add your teammate as reviewer and play with the review tool in the `Files Changed` tab !
 
 <i>Pro tips:</i>
 
 > Take a look at [Closing keywords](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests) 😉
+> > As for Issues, [templates are also available for Pull Requests](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository), and we have one [here](https://github.com/PoCInnovation/open-source-project-template/blob/main/.github/pull_request_template.md) just for you 😉
 
-> As for Issues, [templates are also available for Pull Requests](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository), and we have one [here](https://github.com/PoCInnovation/open-source-project-template/blob/main/.github/pull_request_template.md) just for you 😉
+Try to make it as complete as possible, then take a look at the expected results:
+<details>
+  <summary>Problem PR</summary>
+  <img src="./assets/pr_bug.png"/>
+</details>
+<details>
+  <summary>Feature PR</summary>
+  <img src="./assets/pr_feature.png"/>
+</details>
 
 ## Step 2 - [Projects](https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards) && [Milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones)
 You can manage features and tasks with issues, group commits and do code reviews with PRs, but how do you actually organize
