@@ -13,7 +13,7 @@ Go to your repository settings, and in the `Collaborators` add your teammate !
 > This workshop is based on [PoC Innovation's Open-Source project template](https://github.com/PoCInnovation/open-source-project-template).  
 Several links to specific parts of the [getting started guide](https://github.com/PoCInnovation/open-source-project-template/blob/main/.github/getting-started.md) will be given to you, but don't spend too much time on it, we have a lot to cover ! You can read it entirely later.
 
-## Step 1 - [Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) && [Pull Requests (PRs)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
+## Step 1 - [Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) & [Pull Requests (PRs)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 On a project, you'll need a tool to track and organize your work: with GitHub Issues, you can track feature requests, user feedbacks and bug reports.  
 If you played a bit with the calculator you may notice the given result isn't correct.
 
@@ -64,7 +64,7 @@ Try to make it as complete as possible, then take a look at the expected results
   <img src="./assets/pr_feature.png"/>
 </details>
 
-## Step 2 - [Projects](https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards) && [Milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones)
+## Step 2 - [Projects](https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards) & [Milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones)
 You can manage features and tasks with issues, group commits and do code reviews with PRs, but how do you actually organize
 your work in tables like well-known ticketing tools ? That's where GitHub Projects come into play !
 
