@@ -31,7 +31,6 @@ When it's done, add your teammate as reviewer and play with the review tool in t
 
 
 ### :books: **Documentation**:
-<i>Pro tips:</i>
 - [Classification with labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels)
 - [Assignment](https://docs.github.com/en/issues/tracking-your-work-with-issues/assigning-issues-and-pull-requests-to-other-github-users)
 - [Closing keywords](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests)
@@ -96,7 +95,6 @@ Organizing taks with states like `To do`, `In progress` and `Done` is great, but
 linked to a sprint for example ? Milestones are exactly what you need !  
 You can find them in the `Issues` tab.
 
-<i>Pro tips:</i>
 > You won't find a lot of documentation about it, but it's also possible to create [milestone templates](https://github.com/PoCInnovation/open-source-project-template/blob/main/.github/milestone_template.md) 🚀
 
 ## Step 3 - [Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
@@ -107,7 +105,6 @@ Whether you want to build, test or deploy your code, you can create custom workf
 ### :pushpin: **Tasks**:
 Follow [this quickstart](https://docs.github.com/en/actions/quickstart) to create your first action !
 
-<i>Pro tips:</i>
 > If you want to learn more about GitHub Actions, you can check [our dedicated workshop](https://github.com/PoCInnovation/Workshops/tree/24.Git_Github/software/05.Actions) !
 
 ## Step 4 - [Branches protection settings](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches) (optional)
