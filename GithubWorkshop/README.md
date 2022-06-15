@@ -72,6 +72,22 @@ Try to make it as complete as possible, then take a look at the expected results
 You can manage features and tasks with issues, group commits and do code reviews with PRs, but how do you actually organize
 your work in tables like well-known ticketing tools ? That's where GitHub Projects come into play !
 
+Create a project named `Calculator` with 3 columns (by default `To do`, `In progress` and `Done` but you can rename it) with automation to add issues in `To do` when they are created, move created PRs to `In progress` and fill the `Done` column when closing issues or merging PRs.
+
+You can test it by creating other issues:
+<details>
+  <summary>Creating an issue</summary>
+  <img src="./assets/project_creating_automation.png"/>
+</details>
+<details>
+  <summary>Closing an issue</summary>
+  <img src="./assets/project_closing_automation.png"/>
+</details>
+<details>
+  <summary>Project view example</summary>
+  <img src="./assets/project_view.png"/>
+</details>
+
 > A [new GitHub Project experience](https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects) is currently in public beta. We chose not to cover it because it's subject to major changes, but it brings great features such as [custom fields](https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects#adding-metadata-to-your-tasks) and [different views](https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects#adding-metadata-to-your-tasks).
 
 Organizing taks with states like `To do`, `In progress` and `Done` is great, but how to you handle deadlines and group several issues and PRs
