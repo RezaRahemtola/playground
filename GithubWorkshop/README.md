@@ -16,6 +16,7 @@ Several links to specific parts of the [getting started guide](https://github.co
 ## Step 1 - [Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) & [Pull Requests (PRs)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
 ### :bookmark_tabs: **Description**:
 On a project, you'll need a tool to track and organize your work: with GitHub Issues, you can track feature requests, user feedbacks and bug reports.  
+Contributions can also be managed with Pull Requests to review code and discuss about it before merging on another branch.  
 If you played a bit with the calculator you may notice the given result isn't correct.
 
 ### :pushpin: **Tasks**:
@@ -24,12 +25,19 @@ You have to create 3 issues:
 - Another to suggest a feature (add all the arguments instead of just the first 2)
 - A last one to take a single string as parameter and support operators in it (this one will not be implemented)
 
+Then you have to create two branches (`fix/wrong-result` and `feat/multi-arguments`) and solve the related issues on it.  
+Create a Pull Request for each branch and use 2 different methods to link the related issues.
+When it's done, add your teammate as reviewer and play with the review tool in the `Files Changed` tab !
+
+
 ### :books: **Documentation**:
 <i>Pro tips:</i>
 - [Classification with labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels)
 - [Assignment](https://docs.github.com/en/issues/tracking-your-work-with-issues/assigning-issues-and-pull-requests-to-other-github-users)
+- [Closing keywords](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests)
 
-> Instead of filling an Issue manually, you can use [templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository). It's really useful to let contributors know what information maintainers need and keep a common structure between issues. You can find some great examples in [our Open-Source project template](https://github.com/PoCInnovation/open-source-project-template/tree/main/.github/ISSUE_TEMPLATE).
+> Instead of organizing the content manually, you can use templates for [issues](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository) and [PRs](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository). It's really useful to let contributors know what information maintainers need and keep a common structure between contributions.  
+You can find some great examples for different types of issues in [our Open-Source project template](https://github.com/PoCInnovation/open-source-project-template/tree/main/.github/ISSUE_TEMPLATE) as long as [one for Pull Requests](https://github.com/PoCInnovation/open-source-project-template/blob/main/.github/pull_request_template.md).
 
 ### :heavy_check_mark: **Validation**:
 Try to make it as complete as possible, then take a look at the expected results:
@@ -45,23 +53,6 @@ Try to make it as complete as possible, then take a look at the expected results
   <summary>Not implemented issue</summary>
   <img src="./assets/issue_feature_wontfix.png"/>
 </details>
-
-
-Now you can create two branches (`fix/wrong-result` and `feat/multi-arguments`) and solve the related issues on it. 
-Congratulations, you solved these issues !  
-But don't close them yet, you will now learn to use Pull Requests and use the option to close issues automatically :sparkles:
-
-### :pushpin: **Tasks**:
-Create a Pull Request for each branch and use 2 different methods to link the related issues.
-When it's done, add your teammate as reviewer and play with the review tool in the `Files Changed` tab !
-
-### :books: **Documentation**:
-- [Closing keywords](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/using-keywords-in-issues-and-pull-requests)
-
-> As for Issues, [templates are also available for Pull Requests](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository), and we have one [here](https://github.com/PoCInnovation/open-source-project-template/blob/main/.github/pull_request_template.md) just for you 😉
-
-### :heavy_check_mark: **Validation**:
-Try to make it as complete as possible, then take a look at the expected results:
 <details>
   <summary>Problem PR</summary>
   <img src="./assets/pr_bug.png"/>
@@ -71,7 +62,7 @@ Try to make it as complete as possible, then take a look at the expected results
   <img src="./assets/pr_feature.png"/>
 </details>
 <details>
-  <summary>Review example</summary>
+  <summary>PR review example</summary>
   <img src="./assets/pr_review.png"/>
 </details>
 
