@@ -1,7 +1,7 @@
 # Part 2: GitHub :rocket:
 
 ## Step 0 - Project initialization
-Create a repository and commit the files & folders contained in [project folder].
+Create a repository and commit the files & folders contained in the `calculator` folder.
 Some steps should be completed in groups of at least 2.
 Go to your repository settings, and in the `Collaborators` add your teammate !
 
