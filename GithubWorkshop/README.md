@@ -105,7 +105,14 @@ Whether you want to build, test or deploy your code, you can create custom workf
 ### :pushpin: **Tasks**:
 Follow [this quickstart](https://docs.github.com/en/actions/quickstart) to create your first action !
 
-> If you want to learn more about GitHub Actions, you can check [our dedicated workshop](https://github.com/PoCInnovation/Workshops/tree/24.Git_Github/software/05.Actions) !
+### :heavy_check_mark: **Validation**:
+You can see your workflow runs in the `Action` tab of your repository
+<details>
+  <summary>Action tab preview</summary>
+  <img str="./assets/action_result.png"/>
+</details>
+
+> If you want to learn more about GitHub Actions with real use cases, you can check [our dedicated workshop](https://github.com/PoCInnovation/Workshops/tree/24.Git_Github/software/05.Actions) !
 
 ## Step 4 - [Branches protection settings](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches) (optional)
 ### :bookmark_tabs: **Description**:
