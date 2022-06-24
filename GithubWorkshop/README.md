@@ -95,7 +95,7 @@ Organizing taks with states like `To do`, `In progress` and `Done` is great, but
 linked to a sprint for example ? Milestones are exactly what you need !  
 You can find them in the `Issues` tab.
 
-> You won't find a lot of documentation about it, but it's also possible to create [milestone templates](https://github.com/PoCInnovation/open-source-project-template/blob/main/.github/milestone_template.md) 🚀
+> There is no milestone template, but nothing prevents you from having one in the `.github` folder and paste it's content when you create a milestone. Here's [an example of what it could look like](https://github.com/PoCInnovation/open-source-project-template/blob/main/.github/milestone_template.md) 🚀
 
 ## Step 3 - [Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
 ### :bookmark_tabs: **Description**:
