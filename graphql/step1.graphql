@@ -1,0 +1,23 @@
+query {
+  continents {
+    code
+    name
+    countries {
+      code
+      name
+      capital
+    }
+  }
+}
+
+query {
+  country(code: "FR") {
+    code
+    name
+    currency
+    states {
+      code
+      name
+    }
+  }
+}

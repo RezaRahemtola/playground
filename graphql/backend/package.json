@@ -1,0 +1,51 @@
+{
+  "name": "typescript-project-template",
+  "version": "1.0.0",
+  "description": "A simple template to easily start typescript project",
+  "main": "src/server.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node-dev src/server.ts",
+    "feed": "ts-node-dev src/feeds/feed.ts",
+    "clean": "rm -rf dist/ coverage/",
+    "lint": "eslint src",
+    "lint:fix": "eslint --fix src",
+    "test": "jest --coverage tests",
+    "test:watch": "jest --coverage tests --watchAll",
+    "migrate": "yarn migrate:dev && yarn migrate:generate",
+    "migrate:dev": "prisma migrate dev",
+    "migrate:generate": "prisma generate"
+  },
+  "author": "Reza Rahemtola",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/graphql-depth-limit": "^1.1.2",
+    "@typescript-eslint/eslint-plugin": "^4.9.0",
+    "@typescript-eslint/parser": "^4.9.0",
+    "@typescript-eslint/typescript-estree": "^4.22.0",
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb-typescript": "^12.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "@jest/globals": "^26.6.2",
+    "@prisma/client": "^3.15.2",
+    "@types/jest": "^26.0.16",
+    "@types/node": "^15.0.1",
+    "apollo-server": "^2.24.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "graphql": "^15.5.0",
+    "graphql-depth-limit": "^1.1.0",
+    "graphql-import-node": "^0.0.4",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4",
+    "ts-node-dev": "^1.1.6"
+  }
+}

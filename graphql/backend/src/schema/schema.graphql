@@ -1,0 +1,46 @@
+# Define your graphQL queries, mutations and input in this file
+
+type Query {
+    hello: String
+    personalHello (name: String): String
+    categories: [Category]
+    category (id: ID!): Category
+    products: [Product]
+    product (id: ID!): Product
+}
+
+type Mutation {
+    add (number1: Int!, number2: Int!): Int
+    createProduct (input: ProductInput!): Product
+    updateProduct (id: ID!, input: ProductInput): Product
+    deleteProduct (id: ID!): Product
+    createCategory (input: CategoryInput!): Category
+    updateCategory (id: ID!, input: CategoryInput): Category
+    deleteCategory (id: ID!): Category
+}
+
+type Category {
+    id: ID!
+    name: String!
+    products: [Product]
+}
+
+type Product {
+    id: ID!
+    name: String!
+    desc: String!
+    price: Int!
+    categories: [Category]
+}
+
+input CategoryInput {
+    name: String
+    products: [ID]
+}
+
+input ProductInput {
+    name: String
+    desc: String
+    price: Int
+    categories: [ID]
+}
