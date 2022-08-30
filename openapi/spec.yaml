@@ -1,0 +1,18 @@
+openapi: 3.0.0
+info:
+  title: Sample API
+  version: 0.0.42
+servers:
+  - url: http://api.poc-innovation.fr/
+paths:
+  /hello:
+    get:
+      responses:
+        '200':
+          description: Hello World
+          content:
+            application/json:
+              schema:
+                properties:
+                  msg:
+                    type: string
