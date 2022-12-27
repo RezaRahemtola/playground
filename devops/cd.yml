@@ -1,0 +1,46 @@
+# A simple action to deploy to a server with SCP/SSH
+name: Continuous Deployment
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy
+    environment: production  # Secrets should be added to this env
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: SSH Server Deploy
+        uses: kostya-ten/ssh-server-deploy@v4
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          private_key: ${{ secrets.SSH_KEY }}
+          scp_source: .
+          scp_target: ${{ secrets.SSH_TARGET }}
+          after_script: <rebuild command>
+
+      # Alternative solution:
+      #
+      # - name: Copy code to the instance
+      #   uses: appleboy/scp-action@master
+      #   with:
+      #     host: ${{ secrets.SSH_HOST }}
+      #     username: ${{ secrets.SSH_USER }}
+      #     key: ${{ secrets.SSH_KEY }}
+      #     source: .
+      #     target: ${{ secrets.SSH_TARGET }}
+
+      # - name: Restart the app
+      #   uses: appleboy/ssh-action@v0.1.6
+      #   with:
+      #     host: ${{ secrets.SSH_HOST }}
+      #     username: ${{ secrets.SSH_USER }}
+      #     key: ${{ secrets.SSH_KEY }}
+      #     script: <rebuild command>
