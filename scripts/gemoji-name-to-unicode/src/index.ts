@@ -11,7 +11,7 @@ glob("/home/reza/poc/wk/**/*.md", (error, files) => {
 		const data = fs.readFileSync(file);
 		let content = data.toString();
 
-		const matches = content.match(/ :[a-z_]+:/g);
+		const matches = content.match(/:[a-z_]+:/g);
 
 		matches?.forEach((match) => {
 			const code = match.replaceAll(":", "");
@@ -19,7 +19,7 @@ glob("/home/reza/poc/wk/**/*.md", (error, files) => {
 			if (nameToEmoji[code]) {
 				content = content.replaceAll(match, nameToEmoji[code]);
 			} else {
-				console.error(`Unknown gemoji code ${match} found in ${file}`);
+				console.error(`Unknown gemoji code "${match}" found in ${file}`);
 				unknownEmojis = true;
 			}
 		});
