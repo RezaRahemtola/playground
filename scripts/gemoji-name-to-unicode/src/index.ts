@@ -1,6 +1,6 @@
-import fs from "fs";
 import { nameToEmoji } from "gemoji";
 import glob from "glob";
+import fs from "node:fs";
 import { exit } from "process";
 
 glob("/home/reza/poc/wk/**/*.md", (error, files) => {
