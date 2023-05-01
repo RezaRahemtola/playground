@@ -23,8 +23,13 @@
 - [Archetype](https://www.youtube.com/watch?v=b0_weuzwvOM)
 
 
-### Ligo
-TODO
+### JSLigo
+- [First contract](https://www.youtube.com/watch?v=gu8VMCZkrug)
+- [Entry points](https://www.youtube.com/watch?v=DBk8frVMBKc)
+- [Verifications](https://www.youtube.com/watch?v=5tCBOzGyEbM)
+- [Advanced tests](https://www.youtube.com/watch?v=XH9MB5Q4n-s)
+- [Transactions](https://www.youtube.com/watch?v=Lc2mRWzrYz8)
+- [Maps and records](https://www.youtube.com/watch?v=v-gmr2_rJYI)
 
 ### SmartPy
 - [First contract](https://www.youtube.com/watch?v=onRnbOFFcQU)
@@ -34,4 +39,8 @@ TODO
 - [Maps and records](https://www.youtube.com/watch?v=3_POt3FIOro)
 
 ### Archetype
-TODO
+- [First contract](https://www.youtube.com/watch?v=_AbSZeo6onU)
+- [Verifications](https://www.youtube.com/watch?v=YO-T5tsrjuM)
+- [Advanced tests](https://www.youtube.com/watch?v=atIs4k7jZxo)
+- [Transactions](https://www.youtube.com/watch?v=GX537VHF3Gg)
+- [Assets and records](https://www.youtube.com/watch?v=FdLvNP8LoqM)
