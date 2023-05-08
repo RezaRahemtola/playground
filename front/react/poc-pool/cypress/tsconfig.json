@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "types": ["cypress"]
+  },
+  "include": [
+    "e2e/**/*.ts",
+  ]
+}
