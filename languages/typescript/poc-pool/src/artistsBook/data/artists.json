@@ -1,0 +1,24 @@
+[
+  {
+    "id": "L600OavK_USaE9eCXjtVu",
+    "name": "B2O",
+    "nbFans": 12300000,
+    "mostPopularMusic": "Pitbull",
+    "listenTime": 4502108
+  },
+  { "id": "Y3UqgaR2sZOkN751XfEgf", "name": "SCH", "nbFans": 4560000, "mostPopularMusic": "A7", "listenTime": 45682 },
+  {
+    "id": "8CbgUf5LUug32tAA_9BTY",
+    "name": "Laylow",
+    "nbFans": 1590000,
+    "mostPopularMusic": "Special",
+    "listenTime": 4826
+  },
+  {
+    "id": "GFSYkg0i6Dj_xJdTijEeb",
+    "name": "Billie Eilish",
+    "nbFans": 78000000,
+    "mostPopularMusic": "Bad guy",
+    "listenTime": 1520
+  }
+]
