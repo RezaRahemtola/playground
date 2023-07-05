@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tweet-generator-langchain"
+version = "0.1.0"
+description = ""
+authors = ["Reza Rahemtola <reza.rahemtola@poc-innovation.fr>"]
+readme = "README.md"
+packages = [{include = "tweet_generator_langchain"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.24.0"
+langchain = "^0.0.224"
+openai = "^0.27.8"
+wikipedia = "^1.4.0"
+tiktoken = "^0.4.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
